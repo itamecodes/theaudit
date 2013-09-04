@@ -1,0 +1,272 @@
+	/* Tables */
+
+/*.hastable table {
+	
+	background:#fff;
+	width:100%;
+	border:1px solid #dedede;
+	border-bottom:none;
+}
+
+.hastable thead td, .hastable thead th {
+	background-color:#e6e6e6;
+}
+
+.hastable tr td, .hastable thead th {
+	border-left:1px solid #ccc;
+	text-align:left;
+	padding:8px;
+	color:#616161;
+	vertical-align:middle;
+}
+
+.hastable thead td, .hastable thead th {
+	font-weight:bold;
+	padding:10px 6px;
+	text-align:center;
+}
+
+.hastable th, .hastable td {
+	border-bottom:1px solid #dedede;
+}
+.hastable tbody th {
+	padding:8px 8px;
+	text-align:left;
+}
+
+.hastable tbody tr.alt td, .hastable tbody tr.odd td {
+	color:#464646;
+}
+
+.hastable tbody tr.alt td, .hastable tbody tr.alt th, .hastable tbody tr.odd {
+	background-color:#f5f5f5;
+}
+.hastable tbody tr:hover td, .hastable tbody tr:hover th {
+	background-color:#FFFFCF;
+}*/
+.grid-view table.hastable{
+	
+	background:#fff;
+	width:100%;
+	border:1px solid #dedede;
+	border-bottom:none;
+}
+
+.grid-view table.hastable thead td, .grid-view table.hastable thead th {
+	background-color:#e6e6e6;
+}
+
+.grid-view table.hastable tr td, .grid-view table.hastable thead th {
+	border-left:1px solid #ccc;
+	text-align:left;
+	padding:8px;
+	color:#616161;
+	vertical-align:middle;
+}
+
+.grid-view table.hastable thead td, .grid-view table.hastable thead th {
+	font-weight:bold;
+	padding:10px 6px;
+	text-align:center;
+}
+
+.grid-view table.hastable th, .grid-view table.hastable td {
+	border-bottom:1px solid #dedede;
+}
+.grid-view table.hastable tbody th {
+	padding:8px 8px;
+	text-align:left;
+}
+
+.grid-view table.hastable tbody tr.alt td, .grid-view table.hastable tbody tr.odd td {
+	color:#464646;
+}
+
+.grid-view table.hastable tbody tr.alt td, .grid-view table.hastable tbody tr.alt th, .grid-view table.hastable tbody tr.odd {
+	background-color:#f5f5f5;
+}
+.grid-view table.hastable tbody tr:hover td, .grid-view table.hastable tbody tr:hover th {
+	background-color:#FFFFCF;
+}
+
+.grid-view table.hastable th a.asc
+{
+	background:url(up.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+.grid-view table.hastable th a.desc
+{
+	background:url(down.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+
+
+.headerSortDown, .headerSortUp {
+	background-repeat:no-repeat;
+	background-color:#dcdcdc!important;
+	color:#404040!important;
+}
+
+
+
+
+table.detail-view{
+    background:#fff;
+	width:100%;
+	border:1px solid #dedede;
+	border-bottom:none;
+}
+
+table.detail-view thead td,  table.detail-view thead th {
+	background-color:#e6e6e6;
+}
+
+table.detail-view tr td{
+	border-left:1px solid #ccc;
+	text-align:left;
+	padding:8px;
+	color:#616161;
+	vertical-align:middle;
+}
+table.detail-view th, table.detail-view td {
+	border-bottom:1px solid #dedede;
+}
+table.detail-view tbody th {
+	padding:8px 8px;
+	text-align:left;
+    font-weight:bold;
+    width: 180px;
+}
+
+table.detail-view tbody tr.alt td, table.detail-view tbody tr.odd td {
+	color:#464646;
+}
+
+table.detail-view tbody tr.alt td, table.detail-view tbody tr.alt th, table.detail-view tbody tr.odd {
+	background-color:#f5f5f5;
+}
+table.detail-view tbody tr:hover td, table.detail-view tbody tr:hover th {
+	background-color:#FFFFCF;
+}
+
+/** bala **/
+.questionrow{
+	 padding: 0px 0px 15px 0px;
+	}
+.completeaudit{
+	color: green;
+}
+.notstartedaudit{
+	color:  #970000;
+}
+.incompleteaudit
+{
+color: #EE9D09;
+}
+/** lightbox **/
+
+#hideshow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	 
+}
+
+#fade {
+	background: #000; 
+	position: fixed; 
+	width: 100%;
+	height: 100%;
+	 filter:alpha(opacity=80); 
+	opacity: 0.80;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /*--IE 8 Transparency--*/
+	 left: 0;
+	z-index: 10; 
+}
+.popup_block {
+	/* background: #08384A;*/
+	background:white;
+	padding: 10px 20px;
+	border: 5px solid #05212B;
+	float: left;
+	width: 650px;
+	position: fixed;
+	top: 20%;
+	
+	left: 50%;
+	margin: 0 0 0 -388px;
+	z-index: 100;
+
+}
+.popup_block .popup {
+	float: left;
+	width: 100%;
+	background: #EBEDED;
+	/* margin: 10px 0;
+	padding: 10px 0; */
+	border: 1px solid #bbb;
+}
+.popup h3 {
+	margin: 0 0 20px;
+	padding: 5px 10px;
+	border-bottom: 1px solid #bbb;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+.popup p {
+	padding: 5px 10px;
+	margin: 5px 0;
+}
+.popup img.cntrl {
+	position: absolute;
+	right: -20px;
+	top: -20px;
+}
+
+/*--Making IE6 Understand Fixed Positioning--*/
+
+*html #fade {
+	position: absolute;
+	top:expression(eval(document.compatMode &&
+	document.compatMode=='CSS1Compat') ?
+	documentElement.scrollTop : document.body.scrollTop);
+}
+
+*html .popup_block {
+	position: absolute;
+	top:expression(eval(document.compatMode &&
+	document.compatMode=='CSS1Compat') ?
+	documentElement.scrollTop
+	+((documentElement.clientHeight-this.clientHeight)/2)
+	: document.body.scrollTop
+	+((document.body.clientHeight-this.clientHeight)/2));
+	
+	left:expression(eval(document.compatMode &&
+	document.compatMode=='CSS1Compat') ?
+	documentElement.scrollLeft 
+	+ (document.body.clientWidth /2 ) 
+	: document.body.scrollLeft 
+	+ (document.body.offsetWidth /2 ));
+}
+
+/*--IE 6 PNG Fix--*/
+
+img{ behavior: url(iepngfix.htc) }
+
+.notstarted-audit{
+	color:#970000;
+}
+.incomplete-audit{
+	color:#EE9D09;
+}
+.complete-audit{
+	color:green;
+}
+.cppresult{
+	margin-top:10px;
+	color:green;
+}
